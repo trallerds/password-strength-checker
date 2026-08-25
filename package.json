@@ -16,7 +16,15 @@
     }
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trallerds/password-strength-checker.git"
+  },
+  "homepage": "https://github.com/trallerds/password-strength-checker#readme",
+  "bugs": {
+    "url": "https://github.com/trallerds/password-strength-checker/issues"
   },
   "files": [
     "dist",

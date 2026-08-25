@@ -4,6 +4,26 @@ Security-focused password strength analysis for Node.js and TypeScript.
 
 ## Install
 
+### GitHub Packages
+
+```bash
+npm install @trallerds/password-strength-checker
+```
+
+Make sure your project has an `.npmrc` with:
+
+```ini
+@trallerds:registry=https://npm.pkg.github.com
+```
+
+And authenticate with a GitHub personal access token (classic) with `read:packages` scope:
+
+```bash
+npm login --scope=@trallerds --auth-type=legacy --registry=https://npm.pkg.github.com
+```
+
+### npmjs.com
+
 ```bash
 npm install @trallerds/password-strength-checker
 ```
