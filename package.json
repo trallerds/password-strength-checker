@@ -51,7 +51,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.28.0",
+    "fastify": "^5.12.1",
     "@fastify/cors": "^9.0.0",
     "zxcvbn-ts": "^2.3.4",
     "zod": "^3.23.0"
@@ -60,7 +60,7 @@
     "@types/node": "^22.0.0",
     "typescript": "^5.6.0",
     "tsx": "^4.19.0",
-    "vitest": "^2.1.0",
+    "vitest": "^4.1.11",
     "eslint": "^9.15.0",
     "@typescript-eslint/eslint-plugin": "^8.15.0",
     "@typescript-eslint/parser": "^8.15.0",
