@@ -1,0 +1,54 @@
+{
+  "name": "password-strength-checker",
+  "version": "1.0.0",
+  "description": "Security-focused password strength analysis for Node.js and TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsx watch src/server/server.ts",
+    "build": "tsc",
+    "start": "node dist/server/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "keywords": [
+    "password",
+    "security",
+    "strength",
+    "zxcvbn",
+    "cybersecurity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "@fastify/cors": "^9.0.0",
+    "zxcvbn-ts": "^2.3.4",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "tsx": "^4.19.0",
+    "vitest": "^2.1.0",
+    "eslint": "^9.15.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "globals": "^15.0.0"
+  }
+}
