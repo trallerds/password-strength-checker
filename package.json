@@ -1,6 +1,6 @@
 {
   "name": "@trallerds/password-strength-checker",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Security-focused password strength analysis for Node.js and TypeScript",
   "type": "module",
   "main": "./dist/core/index.js",
